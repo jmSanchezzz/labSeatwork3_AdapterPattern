@@ -2,9 +2,6 @@ package school.library;
 
 import school.SchoolManagementApp;
 
-/**
- * Adapter: Bridges the LibrarySystem to the unified SchoolManagementApp interface.
- */
 public class LibrarySystemAdapter implements SchoolManagementApp {
     private final LibrarySystem librarySystem;
 

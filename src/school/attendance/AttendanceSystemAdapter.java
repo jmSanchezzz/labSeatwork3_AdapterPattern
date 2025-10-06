@@ -2,9 +2,6 @@ package school.attendance;
 
 import school.SchoolManagementApp;
 
-/**
- * Adapter: Bridges the AttendanceSystem to the unified SchoolManagementApp interface.
- */
 public class AttendanceSystemAdapter implements SchoolManagementApp {
     private final AttendanceSystem attendanceSystem;
 

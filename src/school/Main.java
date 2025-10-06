@@ -10,10 +10,6 @@ import school.grading.GradingSystemAdapter;
 import school.library.LibrarySystem;
 import school.library.LibrarySystemAdapter;
 
-/**
- * Client / Demo: Shows how the unified interface can integrate multiple
- * independent systems via their respective adapters.
- */
 public class Main {
     public static void main(String[] args) {
         List<SchoolManagementApp> integrations = new ArrayList<>();
